@@ -10,8 +10,6 @@ import { lazy } from 'react'
 import { Suspense } from 'react'
 
 
-
-
 // code spilliting or lazy load
 
 const  Menswear =lazy(()=> import ('./components/menWear/Menswear.jsx'))
@@ -33,7 +31,7 @@ const appRouter=createBrowserRouter(
           path:'/',
           element:(
           <Suspense fallback={
-          <div style={{display:'flex',justifyContent:'center',flexDirection:'column',gap:'20px'}}>
+          <div style={{display:'flex',justifyContent:'center',flexDirection:'column',gap:'20px' ,alignItems:'center'}}>
             <img style={{width:'200px',height:'200px'}} src='https://cdn-icons-gif.flaticon.com/17905/17905715.gif' alt='loading gif'/>
             <br/>
             <p style={{fontSize:'20px'}}>Loading...</p>

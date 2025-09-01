@@ -14,7 +14,6 @@ import Header from '../NavBar/Header.jsx';
 
 function ProductList(){
 
-
     const { filteredProducts,setFilteredProducts,setProducts } = useContext(ProductContext);
     // set loading to products view
     const [loading, setLoading] = useState(true);
