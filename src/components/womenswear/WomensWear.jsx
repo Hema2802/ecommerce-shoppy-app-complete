@@ -59,6 +59,8 @@ function WomensWear(){
              <h1>Where Elegance Meets Everyday</h1>
              <h2> Exclusive offers!!!</h2>
              <br/>
+
+             
               {loading ? (
                         <div className="loading-process">
                   <p>Loading...</p>
