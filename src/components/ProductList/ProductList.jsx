@@ -1,5 +1,5 @@
 
-import FrontPage from '../FrontPage/FrontPage';
+import FrontPage from '../FrontPage/FrontPage.jsx';
 import HomePage from '../HomePage/HomePage';
 import '../ProductList/ProductList.css'
 import { useEffect } from 'react';
